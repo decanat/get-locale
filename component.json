@@ -3,7 +3,9 @@
   "repository": "decanat/get-locale",
   "description": "Detect client's language preference.",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "component/cookie": "^1.1.1"
+  },
   "development": {
     "component/assert": "~0.5.0"
   },
