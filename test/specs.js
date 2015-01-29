@@ -47,11 +47,17 @@ describe('Cookies', function () {
         assert.equal(getLocale(), 'hy');
     });
 
-    it('should support cookie name as argument', function () {
-        cookie('locale', 'hy');
-
+    it('should be configurable', function () {
+        // change cookie name
         getLocale.configure({ cookie: 'locale' });
+
+        cookie('locale', 'hy');
         assert.equal(getLocale(), 'hy');
+
+        // disable
+        getLocale.configure({ cookie: null });
+        // falls back to navigator.language
+        assert.equal(getLocale(), 'en-US');
     });
 
     after(function(){
