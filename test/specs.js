@@ -15,11 +15,25 @@ describe('Itself', function () {
 });
 
 describe('Cookies', function () {
+    after(function(){
+        // cleanup
+        cookie('lang', null);
+        cookie('locale', null);
+    });
+
     it('should return cookie value if set', function () {
         assert.equal(getLocale(), 'en-US');
 
         cookie('lang', 'hy');
 
         assert.equal(getLocale(), 'hy');
+    });
+
+    it('should support cookie name as argument', function () {
+        assert.equal(getLocale({ cookie: 'locale' }), 'en-US');
+
+        cookie('locale', 'hy');
+
+        assert.equal(getLocale({ cookie: 'locale' }), 'hy');
     });
 });
