@@ -39,3 +39,13 @@ describe('Cookies', function () {
         assert.equal(getLocale(), 'hy');
     });
 });
+
+describe('HTML lang', function(){
+    it('should return HTML5 `lang` attribute if set', function(){
+        assert.equal(getLocale(), 'en-US');
+
+        document.documentElement.setAttribute('lang', 'de');
+
+        assert.equal(getLocale(), 'de');
+    });
+});
