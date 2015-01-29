@@ -30,10 +30,12 @@ describe('Cookies', function () {
     });
 
     it('should support cookie name as argument', function () {
-        assert.equal(getLocale({ cookie: 'locale' }), 'en-US');
+        getLocale.configure({ cookie: 'locale' });
+
+        assert.equal(getLocale(), 'en-US');
 
         cookie('locale', 'hy');
 
-        assert.equal(getLocale({ cookie: 'locale' }), 'hy');
+        assert.equal(getLocale(), 'hy');
     });
 });

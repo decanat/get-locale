@@ -4,7 +4,8 @@
   "description": "Detect client's language preference.",
   "version": "0.0.0",
   "dependencies": {
-    "component/cookie": "^1.1.1"
+    "component/cookie": "^1.1.1",
+    "yiwn/extend": "^1.0.1"
   },
   "development": {
     "component/assert": "~0.5.0"
