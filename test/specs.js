@@ -71,4 +71,11 @@ describe('Navigator', function(){
     it('should return navigator\'s preference', function(){
         assert.equal(getLocale(), 'en-US');
     });
+
+    it('should be exclusive', function() {
+        getLocale.configure({ useNavigator: false });
+
+        assert.equal(getLocale(), void 0);
+    });
 });
+
