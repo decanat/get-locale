@@ -1,0 +1,19 @@
+{
+  "name": "decanat-get-locale",
+  "version": "0.0.0",
+  "description": "Detect client's language preference.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decanat/get-locale.git"
+  },
+  "author": "Mushex Antaranian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decanat/get-locale/issues"
+  },
+  "homepage": "https://github.com/decanat/get-locale"
+}

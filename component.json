@@ -1,0 +1,13 @@
+{
+  "name": "get-locale",
+  "repository": "decanat/get-locale",
+  "description": "Detect client's language preference.",
+  "version": "0.0.0",
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "lib/get-locale.js",
+  "scripts": [
+    "lib/get-locale.js"
+  ]
+}
