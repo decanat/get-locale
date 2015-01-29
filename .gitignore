@@ -21,5 +21,7 @@ build
 node_modules
 components
 
+test/build.js
+
 # Users Environment Variables
 .lock-wscript
