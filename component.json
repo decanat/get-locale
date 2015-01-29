@@ -4,7 +4,9 @@
   "description": "Detect client's language preference.",
   "version": "0.0.0",
   "dependencies": {},
-  "development": {},
+  "development": {
+    "component/assert": "~0.5.0"
+  },
   "license": "MIT",
   "main": "lib/get-locale.js",
   "scripts": [
