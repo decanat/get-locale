@@ -79,3 +79,10 @@ describe('Navigator', function(){
     });
 });
 
+describe('Default', function(){
+    it('should return default if everything failed', function(){
+        getLocale.configure({ defaultLocale: 'hy' });
+
+        assert.equal(getLocale(), 'hy');
+    });
+});
