@@ -4,17 +4,6 @@ var cookie = require('cookie');
 
 var getLocale = require('../');
 
-
-var lang;
-
-describe('Itself', function () {
-    it('should be proper type', function () {
-        assert(getLocale);
-        assert.equal(getLocale.length, 1);
-    });
-});
-
-
 describe('HTML `lang`', function(){
     it('should get root\'s `lang` value', function(){
         // no params
