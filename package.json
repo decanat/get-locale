@@ -1,6 +1,6 @@
 {
   "name": "decanat-get-locale",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Detect client's language preference.",
   "main": "index.js",
   "scripts": {
@@ -19,14 +19,14 @@
   "devDependencies": {
     "duo": "^0.9.2",
     "mocha": "^2.1.0",
-    "mocha-phantomjs": "^3.5.3"
+    "mocha-phantomjs": "^3.5.3",
+    "jshint-stylish": "^1.0.0",
+    "jshint": "^2.6.0"
   },
   "dependencies": {
     "yiwn-extend": "^1.0.1",
     "component-query": "0.0.3",
     "component-type": "^1.1.0",
-    "component-cookie": "^1.1.1",
-    "jshint-stylish": "^1.0.0",
-    "jshint": "^2.6.0"
+    "component-cookie": "^1.1.1"
   }
 }
