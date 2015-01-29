@@ -1,4 +1,4 @@
-# get-locale
+# get-locale [![Build Status](https://travis-ci.org/decanat/get-locale.svg)](https://travis-ci.org/decanat/get-locale)
 
 Detect language preference of a page or an element.
 
