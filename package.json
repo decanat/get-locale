@@ -18,6 +18,7 @@
   "homepage": "https://github.com/decanat/get-locale",
   "devDependencies": {
     "duo": "^0.9.2",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "mocha-phantomjs": "^3.5.3"
   }
 }
